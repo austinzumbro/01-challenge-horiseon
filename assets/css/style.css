@@ -102,13 +102,13 @@ section.content article {
   background-color: #0072bb;
 }
 
-section.content article img {
-  max-height: 200px;
-}
-
 section.content article h2 {
   margin-bottom: 20px;
   font-size: 36px;
+}
+
+section.content article img {
+  max-height: 200px;
 }
 
 /* Benefits Sidebar */
@@ -127,7 +127,7 @@ aside.benefits article {
   margin-bottom: 32px;
 }
 
-aside.benefits article h3 {
+aside.benefits article h2 {
   margin-bottom: 10px;
   text-align: center;
 }
