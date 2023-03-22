@@ -1,18 +1,18 @@
-# Bootcamp Challenge 01 Refactoring Horiseon
+# Marketing Website Refactor
 
 ## Description 
 
-The purpose of this week's challenge is to give us experience reading and refactoring someone else's code. 
+This week's challenge is to get some experience reading and refactoring someone else's code. 
 
-A fictional company, Horiseon, has hired us to refactor their HTML and CSS code to improve their site's accessibility. 
+A fictional company, Horiseon, has hired me to refactor their HTML and CSS code to improve their site's accessibility. 
 
 The initial codebase included a lot of non-semantic elements in the HTML. These have now been updated to semantic elements. As a style reference, I used the [W3Schools semantic elements article](https://www.w3schools.com/html/html5_semantic_elements.asp) in addition to general Googling.
 
-Img elements in the initial codebase did not include any alt attributes. For accessibility reasons, these have been added. As none of the images provide necessary information, their alt attributes have intentionally been left empty.
+<img> elements in the initial codebase did not include any alt attributes. For accessibility reasons, these have been added. As none of the images provide necessary information, their alt attributes have intentionally been left empty.
 
-Additionally, the CSS file contained a number of repetitious and/or redundant entries. These have been cleaned up and reorganized to better match the semantic order of the HTML.  To further avoid unnecessary repetition, I have also centralized font and color attributes.
+Additionally, the CSS file contained a number of repetitious and/or redundant entries. I have cleaned these up and reorganized them to better match the semantic order of the HTML. To further avoid unnecessary repetition, I have also centralized font and color attributes.
 
-Regarding the CSS, because the purpose of the exercise was to emphasize readability of code, I opted to include what may be "overly specific" tags.  Specifically I chose to use **figure.hero**, **section.content**, and **aside.benefits** when only the class names would have sufficed. I do not believe this is considered to be best practice, but I do think it made the code more pleasant to read. 
+Regarding the CSS, because the exercise was to emphasize readability of code, I opted to include what may be "overly specific" tags. Specifically I chose to use **figure.hero**, **section.content**, and **aside.benefits** when only the class names would have sufficed. I do not believe this is considered to be best practice, but I do think it made the code more pleasant to read. 
 
 ## Usage 
 
