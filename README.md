@@ -43,7 +43,7 @@ The initial codebase included a lot of non-semantic elements in the HTML, so I w
 
 #### CSS
 
-The above changes required updates to the associated CSS selectors, but it also afforded an opportunity to remove some redundancies within the stylesheet. And while I was doing that, I discovered a few fonts and colors that could be applied more globally to further reduce repetition.
+The above changes required updates to the associated CSS selectors, which afforded an opportunity to remove some redundancies within the stylesheet. While taking care of that, I also discovered a few fonts and colors that could be applied more globally to further reduce repetition.
 
 **Original code example**
 
@@ -126,9 +126,11 @@ nav {
 
 `<img>` elements in the initial codebase did not include any alt attributes. I added them in accordance with accessibility guidelines.
 
-In my opinion, none of the images on the page provide "necessary information," so I have purposefully left the alt attributes empty.
+In my opinion, none of the images on the page provide "necessary information," so I purposefully left the alt attributes empty. I read that this allows screen readers to skip over the image, which is what I would prefer in my own use case.
 
-> Side note: beyond including "necessary information," guidance around  alt text usage and inclusion appears to come down to personal preference. As someone who does not currently use a screen reader, I have questions about the experience of using one and would like to try it out to learn more. For example, if purely decorative images are meant to improve the visual experience of a site, does the inclusion of decorative alt text similarly improve the reading experience? In that vein, should alt properties of decorative images be more about tone and message rather than a literal description? For example, perhaps the hero image in this project should have alt text like, "Our team is working hard to meet your goals."
+> Side note: beyond including "necessary information," guidance around  alt text usage and inclusion appears to come down to personal preference. As someone who does not generally use a screen reader, I have questions about the experience of using one and would like to learn more. 
+>
+> For example, if purely decorative images are meant to improve the visual experience of a site, does the inclusion of decorative alt text similarly improve the reading experience? In that vein, should alt properties of decorative images be more about tone and message rather than a literal description? For example, perhaps the hero image in this project should have alt text like, "Our team is working hard to meet your goals."
 
 ---
 
@@ -139,13 +141,10 @@ In my opinion, none of the images on the page provide "necessary information," s
 
 Generally, the refactoring should not have affected the appearance of the site or the user experience. 
 
-For reference, the provided mockup (built from the initial codebase) is here:
+For reference, a mockup built from the initial codebase is here:
 
 ![Mockup of the site with the initial codebase](./preview-images/horiseon-old.png "Horiseon Site Mockup")
-
-And the updated site:
-
-![Preview of site with updated codebase](./preview-images/horiseon-page-scroll.gif "Horiseon Site Updated Scroll")
+---
 
 ## Credits
 
