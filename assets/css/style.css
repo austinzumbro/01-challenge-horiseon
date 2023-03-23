@@ -68,7 +68,7 @@ header nav ul li {
 
 /* Hero Image */
 
-figure.hero {
+.hero {
   height: 800px;
   width: 100%;
   margin-bottom: 25px;
@@ -79,7 +79,7 @@ figure.hero {
 
 /* Main Content Section */
 
-section.content {
+.content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
@@ -95,25 +95,25 @@ section.content {
   margin-left: 25px;
 }
 
-section.content article {
+.content article {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
   background-color: #0072bb;
 }
 
-section.content article h2 {
+.content article h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
-section.content article img {
+.content article img {
   max-height: 200px;
 }
 
 /* Benefits Sidebar */
 
-aside.benefits {
+.benefits {
   margin-right: 20px;
   padding: 20px;
   clear: both;
@@ -123,16 +123,16 @@ aside.benefits {
   background-color: #2589bd;
 }
 
-aside.benefits article {
+.benefits article {
   margin-bottom: 32px;
 }
 
-aside.benefits article h2 {
+.benefits article h2 {
   margin-bottom: 10px;
   text-align: center;
 }
 
-aside.benefits article img {
+.benefits article img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
