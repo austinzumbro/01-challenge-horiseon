@@ -4,12 +4,8 @@
 
 This week's challenge is to get some experience reading and refactoring someone else's code.
 
-| Scenario | A fictional company, Horiseon, has hired me to refactor their HTML and CSS code to improve their site's accessibility. |
-| -------- | --- |
-
-### Scenario:
-
-A fictional company, Horiseon, has hired me to refactor their HTML and CSS code to improve their site's accessibility.
+| **Scenario** | *A fictional company, Horiseon, has hired me to refactor their HTML and CSS code to improve their site's accessibility.* |
+| :--- | :--- |
 
 ### How I approached the problem:
 
