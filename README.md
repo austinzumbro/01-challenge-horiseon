@@ -7,6 +7,8 @@ This week's challenge is to get some experience reading and refactoring someone 
 | **Scenario** | *A fictional marketing company, Horiseon, has hired me to refactor their site's HTML and CSS to improve accessibility.* |
 | :--- | :--- |
 
+Let's get to it!
+
 ### My Approach
 ---
 
@@ -126,7 +128,8 @@ nav {
 
 In my opinion, none of the images on the page provide "necessary information," so I have purposefully left the alt attributes empty.
 
-> Beyond including "necessary information," the discussion around how best to use alt text seems to largely come down to personal preference. As a person who does not currently use a screen reader, I have questions about the experience of using one and would like to try it out. For example, given that purely decorative image is meant to improve the visual experience, does the inclusion of decorative alt text similarly improve a reading experience? In that vein, should alt properties of decorative images be about tone and message rather than a literal description? Should the hero image in this project have an alt text along the lines of "our team is working hard to meet your goals."
+> Side note: beyond including "necessary information," guidance around  alt text usage and inclusion appears to come down to personal preference. As someone who does not currently use a screen reader, I have questions about the experience of using one and would like to try it out to learn more. For example, if purely decorative images are meant to improve the visual experience of a site, does the inclusion of decorative alt text similarly improve the reading experience? In that vein, should alt properties of decorative images be more about tone and message rather than a literal description? For example, perhaps the hero image in this project should have alt text like, "Our team is working hard to meet your goals."
+
 ---
 
 #### Odds and Ends
@@ -146,17 +149,31 @@ And the updated site:
 
 ## Credits
 
-I referenced all of the following:
-https://www.w3schools.com/html/html5_semantic_elements.asp  
-https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing#tips_to_keep_your_css_tidy  
-https://codeguide.co/  
+I referenced all of the following:    
+https://www.w3schools.com/html/html5_semantic_elements.asp   
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing#tips_to_keep_your_css_tidy    
+https://codeguide.co/    
 
 ## License
 
-The last section of a good README is a license.
-This lets other developers know what they can and cannot do with your project.
-If you need help choosing a license, use
-[https://choosealicense.com/](https://choosealicense.com/) --- 🏆 The sections
-listed above are the minimum for a good README, but your project will ultimately
-determine the content of this document. You might also want to consider adding
-the following sections.
+MIT License
+
+Copyright (c) 2023 Austin Zumbro
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
