@@ -4,6 +4,9 @@
 
 This week's challenge is to get some experience reading and refactoring someone else's code.
 
+| Scenario | A fictional company, Horiseon, has hired me to refactor their HTML and CSS code to improve their site's accessibility. |
+| -------- | --- |
+
 ### Scenario:
 
 A fictional company, Horiseon, has hired me to refactor their HTML and CSS code to improve their site's accessibility.
@@ -21,9 +24,7 @@ Original code example
 <div class="hero"></div>
 <div class="content">
   <div class="search-engine-optimization">...</div>
-  <div id="online-reputation-management" class="online-reputation-management">
-    ...
-  </div>
+  <div id="online-reputation-management" class="online-reputation-management">...</div>
   <div id="social-media-marketing" class="social-media-marketing">...</div>
 </div>
 ```
@@ -34,18 +35,9 @@ Refactored code
 <header>...</header>
 <figure class="hero"></figure>
 <section class="content">
-  <article class="search-engine-optimization" id="search-engine-optimization">
-    ...
-  </article>
-  <article
-    class="online-reputation-management"
-    id="online-reputation-management"
-  >
-    ...
-  </article>
-  <article class="social-media-marketing" id="social-media-marketing">
-    ...
-  </article>
+  <article class="search-engine-optimization" id="search-engine-optimization">...</article>
+  <article class="online-reputation-management" id="online-reputation-management">...</article>
+  <article class="social-media-marketing" id="social-media-marketing">...</article>
 </section>
 ```
 
