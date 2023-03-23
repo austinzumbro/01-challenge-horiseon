@@ -9,8 +9,9 @@ This week's challenge is to get some experience reading and refactoring someone 
 
 Let's get to it!
 
-### My Approach
 ---
+
+### My Approach
 
 #### Semantic Elements
 
@@ -122,7 +123,7 @@ nav {
 ```
 ---
 
-#### Alt text
+#### Alt Text
 
 `<img>` elements in the initial codebase did not include any alt attributes. I added them in accordance with accessibility guidelines.
 
